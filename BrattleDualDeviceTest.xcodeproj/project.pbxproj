@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D217ABFD1560DF2A0028A832 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D217ABFC1560DF2A0028A832 /* UIKit.framework */; };
+		D217ABFF1560DF2A0028A832 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D217ABFE1560DF2A0028A832 /* Foundation.framework */; };
+		D217AC011560DF2A0028A832 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D217AC001560DF2A0028A832 /* CoreGraphics.framework */; };
+		D217AC071560DF2A0028A832 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D217AC051560DF2A0028A832 /* InfoPlist.strings */; };
+		D217AC091560DF2A0028A832 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D217AC081560DF2A0028A832 /* main.m */; };
+		D217AC0D1560DF2A0028A832 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D217AC0C1560DF2A0028A832 /* AppDelegate.m */; };
+		D217AC101560DF2A0028A832 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D217AC0F1560DF2A0028A832 /* ViewController.m */; };
+		D217AC131560DF2A0028A832 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D217AC111560DF2A0028A832 /* ViewController_iPhone.xib */; };
+		D217AC161560DF2A0028A832 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D217AC141560DF2A0028A832 /* ViewController_iPad.xib */; };
+		D217AC2E1560DFC60028A832 /* AudioQueueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D217AC1F1560DFC60028A832 /* AudioQueueObject.m */; };
+		D217AC2F1560DFC60028A832 /* AudioSignalAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = D217AC211560DFC60028A832 /* AudioSignalAnalyzer.m */; };
+		D217AC301560DFC60028A832 /* AudioSignalGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D217AC231560DFC60028A832 /* AudioSignalGenerator.m */; };
+		D217AC311560DFC60028A832 /* FSKRecognizer.mm in Sources */ = {isa = PBXBuildFile; fileRef = D217AC271560DFC60028A832 /* FSKRecognizer.mm */; };
+		D217AC321560DFC60028A832 /* FSKSerialGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D217AC291560DFC60028A832 /* FSKSerialGenerator.m */; };
+		D217AC331560DFC60028A832 /* libTGAccessory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D217AC2B1560DFC60028A832 /* libTGAccessory.a */; };
+		D217AC391560DFE10028A832 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D217AC381560DFE10028A832 /* ExternalAccessory.framework */; };
+		D217AC3B1560DFE90028A832 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D217AC3A1560DFE90028A832 /* AudioToolbox.framework */; };
+		D227CC60156207090044D2E7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D227CC5F156207090044D2E7 /* CoreMotion.framework */; };
+		D227CC64156209B60044D2E7 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D227CC63156209B60044D2E7 /* GameKit.framework */; };
+		D227CC6E15620D810044D2E7 /* RobotKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D227CC6B15620D810044D2E7 /* RobotKit.framework */; };
+		D227CC7015620D810044D2E7 /* RobotUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D227CC6D15620D810044D2E7 /* RobotUIKit.framework */; };
+		D227CC7315620ECB0044D2E7 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D227CC7115620ECB0044D2E7 /* libsqlite3.0.dylib */; };
+		D227CC7415620ECB0044D2E7 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D227CC7215620ECB0044D2E7 /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D217ABF81560DF2A0028A832 /* BrattleDualDeviceTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrattleDualDeviceTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D217ABFC1560DF2A0028A832 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D217ABFE1560DF2A0028A832 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D217AC001560DF2A0028A832 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D217AC041560DF2A0028A832 /* BrattleDualDeviceTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BrattleDualDeviceTest-Info.plist"; sourceTree = "<group>"; };
+		D217AC061560DF2A0028A832 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D217AC081560DF2A0028A832 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D217AC0A1560DF2A0028A832 /* BrattleDualDeviceTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrattleDualDeviceTest-Prefix.pch"; sourceTree = "<group>"; };
+		D217AC0B1560DF2A0028A832 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D217AC0C1560DF2A0028A832 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D217AC0E1560DF2A0028A832 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D217AC0F1560DF2A0028A832 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D217AC121560DF2A0028A832 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		D217AC151560DF2A0028A832 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		D217AC1E1560DFC60028A832 /* AudioQueueObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioQueueObject.h; sourceTree = "<group>"; };
+		D217AC1F1560DFC60028A832 /* AudioQueueObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioQueueObject.m; sourceTree = "<group>"; };
+		D217AC201560DFC60028A832 /* AudioSignalAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioSignalAnalyzer.h; sourceTree = "<group>"; };
+		D217AC211560DFC60028A832 /* AudioSignalAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioSignalAnalyzer.m; sourceTree = "<group>"; };
+		D217AC221560DFC60028A832 /* AudioSignalGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioSignalGenerator.h; sourceTree = "<group>"; };
+		D217AC231560DFC60028A832 /* AudioSignalGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioSignalGenerator.m; sourceTree = "<group>"; };
+		D217AC241560DFC60028A832 /* CharReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharReceiver.h; sourceTree = "<group>"; };
+		D217AC251560DFC60028A832 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		D217AC261560DFC60028A832 /* FSKRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSKRecognizer.h; sourceTree = "<group>"; };
+		D217AC271560DFC60028A832 /* FSKRecognizer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSKRecognizer.mm; sourceTree = "<group>"; };
+		D217AC281560DFC60028A832 /* FSKSerialGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSKSerialGenerator.h; sourceTree = "<group>"; };
+		D217AC291560DFC60028A832 /* FSKSerialGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSKSerialGenerator.m; sourceTree = "<group>"; };
+		D217AC2A1560DFC60028A832 /* lockfree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lockfree.h; sourceTree = "<group>"; };
+		D217AC2B1560DFC60028A832 /* libTGAccessory.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTGAccessory.a; sourceTree = "<group>"; };
+		D217AC2C1560DFC60028A832 /* TGAccessoryDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGAccessoryDelegate.h; sourceTree = "<group>"; };
+		D217AC2D1560DFC60028A832 /* TGAccessoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGAccessoryManager.h; sourceTree = "<group>"; };
+		D217AC381560DFE10028A832 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		D217AC3A1560DFE90028A832 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D227CC5F156207090044D2E7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		D227CC63156209B60044D2E7 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		D227CC6B15620D810044D2E7 /* RobotKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RobotKit.framework; path = BrattleDualDeviceTest/Frameworks/RobotKit.framework; sourceTree = "<group>"; };
+		D227CC6D15620D810044D2E7 /* RobotUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RobotUIKit.framework; path = BrattleDualDeviceTest/Frameworks/RobotUIKit.framework; sourceTree = "<group>"; };
+		D227CC7115620ECB0044D2E7 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		D227CC7215620ECB0044D2E7 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D217ABF51560DF2A0028A832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D227CC7315620ECB0044D2E7 /* libsqlite3.0.dylib in Frameworks */,
+				D227CC7415620ECB0044D2E7 /* libsqlite3.dylib in Frameworks */,
+				D227CC64156209B60044D2E7 /* GameKit.framework in Frameworks */,
+				D227CC60156207090044D2E7 /* CoreMotion.framework in Frameworks */,
+				D217AC3B1560DFE90028A832 /* AudioToolbox.framework in Frameworks */,
+				D217AC391560DFE10028A832 /* ExternalAccessory.framework in Frameworks */,
+				D217ABFD1560DF2A0028A832 /* UIKit.framework in Frameworks */,
+				D217ABFF1560DF2A0028A832 /* Foundation.framework in Frameworks */,
+				D217AC011560DF2A0028A832 /* CoreGraphics.framework in Frameworks */,
+				D217AC331560DFC60028A832 /* libTGAccessory.a in Frameworks */,
+				D227CC6E15620D810044D2E7 /* RobotKit.framework in Frameworks */,
+				D227CC7015620D810044D2E7 /* RobotUIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D217ABED1560DF2A0028A832 = {
+			isa = PBXGroup;
+			children = (
+				D217AC1C1560DFC60028A832 /* Libraries */,
+				D217AC021560DF2A0028A832 /* BrattleDualDeviceTest */,
+				D217ABFB1560DF2A0028A832 /* Frameworks */,
+				D217ABF91560DF2A0028A832 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D217ABF91560DF2A0028A832 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D217ABF81560DF2A0028A832 /* BrattleDualDeviceTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D217ABFB1560DF2A0028A832 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D227CC7115620ECB0044D2E7 /* libsqlite3.0.dylib */,
+				D227CC7215620ECB0044D2E7 /* libsqlite3.dylib */,
+				D227CC6B15620D810044D2E7 /* RobotKit.framework */,
+				D227CC6D15620D810044D2E7 /* RobotUIKit.framework */,
+				D227CC63156209B60044D2E7 /* GameKit.framework */,
+				D227CC5F156207090044D2E7 /* CoreMotion.framework */,
+				D217AC3A1560DFE90028A832 /* AudioToolbox.framework */,
+				D217AC381560DFE10028A832 /* ExternalAccessory.framework */,
+				D217ABFC1560DF2A0028A832 /* UIKit.framework */,
+				D217ABFE1560DF2A0028A832 /* Foundation.framework */,
+				D217AC001560DF2A0028A832 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D217AC021560DF2A0028A832 /* BrattleDualDeviceTest */ = {
+			isa = PBXGroup;
+			children = (
+				D217AC0B1560DF2A0028A832 /* AppDelegate.h */,
+				D217AC0C1560DF2A0028A832 /* AppDelegate.m */,
+				D217AC0E1560DF2A0028A832 /* ViewController.h */,
+				D217AC0F1560DF2A0028A832 /* ViewController.m */,
+				D217AC111560DF2A0028A832 /* ViewController_iPhone.xib */,
+				D217AC141560DF2A0028A832 /* ViewController_iPad.xib */,
+				D217AC031560DF2A0028A832 /* Supporting Files */,
+			);
+			path = BrattleDualDeviceTest;
+			sourceTree = "<group>";
+		};
+		D217AC031560DF2A0028A832 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D217AC041560DF2A0028A832 /* BrattleDualDeviceTest-Info.plist */,
+				D217AC051560DF2A0028A832 /* InfoPlist.strings */,
+				D217AC081560DF2A0028A832 /* main.m */,
+				D217AC0A1560DF2A0028A832 /* BrattleDualDeviceTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D217AC1C1560DFC60028A832 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				D217AC1D1560DFC60028A832 /* FSKLibrary */,
+				D217AC2B1560DFC60028A832 /* libTGAccessory.a */,
+				D217AC2C1560DFC60028A832 /* TGAccessoryDelegate.h */,
+				D217AC2D1560DFC60028A832 /* TGAccessoryManager.h */,
+			);
+			name = Libraries;
+			path = BrattleDualDeviceTest/Libraries;
+			sourceTree = "<group>";
+		};
+		D217AC1D1560DFC60028A832 /* FSKLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				D217AC1E1560DFC60028A832 /* AudioQueueObject.h */,
+				D217AC1F1560DFC60028A832 /* AudioQueueObject.m */,
+				D217AC201560DFC60028A832 /* AudioSignalAnalyzer.h */,
+				D217AC211560DFC60028A832 /* AudioSignalAnalyzer.m */,
+				D217AC221560DFC60028A832 /* AudioSignalGenerator.h */,
+				D217AC231560DFC60028A832 /* AudioSignalGenerator.m */,
+				D217AC241560DFC60028A832 /* CharReceiver.h */,
+				D217AC251560DFC60028A832 /* Constants.h */,
+				D217AC261560DFC60028A832 /* FSKRecognizer.h */,
+				D217AC271560DFC60028A832 /* FSKRecognizer.mm */,
+				D217AC281560DFC60028A832 /* FSKSerialGenerator.h */,
+				D217AC291560DFC60028A832 /* FSKSerialGenerator.m */,
+				D217AC2A1560DFC60028A832 /* lockfree.h */,
+			);
+			path = FSKLibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D217ABF71560DF2A0028A832 /* BrattleDualDeviceTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D217AC191560DF2A0028A832 /* Build configuration list for PBXNativeTarget "BrattleDualDeviceTest" */;
+			buildPhases = (
+				D217ABF41560DF2A0028A832 /* Sources */,
+				D217ABF51560DF2A0028A832 /* Frameworks */,
+				D217ABF61560DF2A0028A832 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrattleDualDeviceTest;
+			productName = BrattleDualDeviceTest;
+			productReference = D217ABF81560DF2A0028A832 /* BrattleDualDeviceTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D217ABEF1560DF2A0028A832 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Quarks and Bits";
+			};
+			buildConfigurationList = D217ABF21560DF2A0028A832 /* Build configuration list for PBXProject "BrattleDualDeviceTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D217ABED1560DF2A0028A832;
+			productRefGroup = D217ABF91560DF2A0028A832 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D217ABF71560DF2A0028A832 /* BrattleDualDeviceTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D217ABF61560DF2A0028A832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D217AC071560DF2A0028A832 /* InfoPlist.strings in Resources */,
+				D217AC131560DF2A0028A832 /* ViewController_iPhone.xib in Resources */,
+				D217AC161560DF2A0028A832 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D217ABF41560DF2A0028A832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D217AC091560DF2A0028A832 /* main.m in Sources */,
+				D217AC0D1560DF2A0028A832 /* AppDelegate.m in Sources */,
+				D217AC101560DF2A0028A832 /* ViewController.m in Sources */,
+				D217AC2E1560DFC60028A832 /* AudioQueueObject.m in Sources */,
+				D217AC2F1560DFC60028A832 /* AudioSignalAnalyzer.m in Sources */,
+				D217AC301560DFC60028A832 /* AudioSignalGenerator.m in Sources */,
+				D217AC311560DFC60028A832 /* FSKRecognizer.mm in Sources */,
+				D217AC321560DFC60028A832 /* FSKSerialGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D217AC051560DF2A0028A832 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D217AC061560DF2A0028A832 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D217AC111560DF2A0028A832 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D217AC121560DF2A0028A832 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		D217AC141560DF2A0028A832 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D217AC151560DF2A0028A832 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D217AC171560DF2A0028A832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D217AC181560DF2A0028A832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D217AC1A1560DF2A0028A832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/BrattleDualDeviceTest/Frameworks\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrattleDualDeviceTest/BrattleDualDeviceTest-Prefix.pch";
+				INFOPLIST_FILE = "BrattleDualDeviceTest/BrattleDualDeviceTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/BrattleDualDeviceTest/Libraries\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D217AC1B1560DF2A0028A832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/BrattleDualDeviceTest/Frameworks\"",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BrattleDualDeviceTest/BrattleDualDeviceTest-Prefix.pch";
+				INFOPLIST_FILE = "BrattleDualDeviceTest/BrattleDualDeviceTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/BrattleDualDeviceTest/Libraries\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D217ABF21560DF2A0028A832 /* Build configuration list for PBXProject "BrattleDualDeviceTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D217AC171560DF2A0028A832 /* Debug */,
+				D217AC181560DF2A0028A832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D217AC191560DF2A0028A832 /* Build configuration list for PBXNativeTarget "BrattleDualDeviceTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D217AC1A1560DF2A0028A832 /* Debug */,
+				D217AC1B1560DF2A0028A832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D217ABEF1560DF2A0028A832 /* Project object */;
+}
